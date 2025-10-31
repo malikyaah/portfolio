@@ -1,24 +1,19 @@
-# portfolio
+# 🎓 Portfolio de Malik Yahiaoui
 
-# Notes et documents personnels
+Bienvenue sur mon espace personnel.  
+Vous trouverez ici mes projets et travaux en mathématiques.
 
-Ce dépôt rassemble quelques notes et brouillons mathématiques.  
-Ils ne sont pas forcément destinés à être lus tels quels, mais rassemblent mes lectures et travaux récents.
+---
 
-## Cours et lectures
-- **Calcul différentiel et séries de Fourier (L3)** — notes de cours et exercices.
-- **Théorie de Galois** — compte rendu de stage de L2, sous la tutelle de *Mathilde Herblot (IMJ-PRG)*.
-- **Théorie de la mesure et probabilités** — rappels et exemples.
+<details>
+  <summary><b>📘 Stages</b></summary>
 
-## Projets
-- **Conjecture de Toeplitz** — explorations et exemples simples.
-- **Modélisation physique par les mathématiques** — projet PCSI (2024).
+  <details>
+    <summary><b>Théorie de Galois</b></summary>
 
-## Divers
-Quelques notes de lecture et bibliographies en cours de constitution.
+  - [Compte rendu de théorie de Galois (PDF)](compte_rendu_galois.pdf)
 
-## 📄 Compte rendu de stage – Théorie de Galois
+  </details>
 
-Vous pouvez consulter le rapport ici :  
-[👉 Télécharger le PDF](Compte_rendu_galois.pdf)
+</details>
 
