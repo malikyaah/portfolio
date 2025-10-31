@@ -16,3 +16,9 @@ Ils ne sont pas forcément destinés à être lus tels quels, mais rassemblent m
 
 ## Divers
 Quelques notes de lecture et bibliographies en cours de constitution.
+
+## 📄 Compte rendu de stage – Théorie de Galois
+
+Vous pouvez consulter le rapport ici :  
+[👉 Télécharger le PDF](Compte_rendu_galois.pdf)
+
