@@ -1,0 +1,11 @@
+begin;
+alter table public.workout_sets alter column reps type numeric using reps::numeric;
+alter table public.workout_sets alter column reps drop not null;
+alter table public.workout_sets add column if not exists reps_left numeric;
+alter table public.workout_sets add column if not exists reps_right numeric;
+alter table public.workout_sets add column if not exists client_set_id text;
+create unique index if not exists workout_sets_client_set_id_unique on public.workout_sets(client_set_id);
+alter table public.workout_sets add constraint workout_sets_half_reps check (reps is null or mod(reps,0.5)=0);
+alter table public.workout_sets add constraint workout_sets_sides check ((reps_left is null and reps_right is null) or (reps is null and reps_left is not null and reps_right is not null and reps_left>=0 and reps_right>=0 and mod(reps_left,0.5)=0 and mod(reps_right,0.5)=0));
+commit;
+select count(*) as series_conservees from public.workout_sets;
